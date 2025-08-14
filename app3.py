@@ -28,7 +28,6 @@ categorical_features = ['Area', 'Zone', 'Furnishing Status', 'Recommended For', 
 continuous_numerical_features = [
     'Size_In_Sqft', 'Carpet_Area_Sqft', 'Bedrooms', 'Bathrooms', 'Balcony',
     'Number_Of_Amenities', 'Floor_No', 'Total_floors_In_Building',
-    'Road_Connectivity', 'Property_Age'
 ]
 
 # Define options for categorical inputs
