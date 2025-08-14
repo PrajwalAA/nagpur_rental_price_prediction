@@ -25,7 +25,7 @@ loaded_rf_model, loaded_scaler, loaded_features = load_resources()
 categorical_features = ['Area', 'Zone', 'Furnishing Status', 'Recommended For', 'Water Supply']
 numerical_cols_present = [
     'Size_In_Sqft', 'Carpet_Area_Sqft', 'Bedrooms', 'Bathrooms', 'Balcony',
-    'Number_Of_Amenities', 'Security_Deposite', 'Floor_No', 'Total_floors_In_Building',
+    'Number_Of_Amenities', 'Floor_No', 'Total_floors_In_Building',
     'Road_Connectivity', 'gym', 'gated_community', 'intercom', 'lift',
     'pet_allowed', 'pool', 'security', 'water_supply', 'wifi', 'gas_pipeline',
     'sports_facility', 'kids_area', 'power_backup', 'Garden', 'Fire_Support',
