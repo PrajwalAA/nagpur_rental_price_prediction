@@ -27,7 +27,7 @@ categorical_features = ['Area', 'Zone', 'Furnishing Status', 'Recommended For', 
 # It should NOT contain binary features (0 or 1).
 continuous_numerical_features = [
     'Size_In_Sqft', 'Carpet_Area_Sqft', 'Bedrooms', 'Bathrooms', 'Balcony',
-    'Number_Of_Amenities', 'Security_Deposite', 'Floor_No', 'Total_floors_In_Building',
+    'Number_Of_Amenities', 'Floor_No', 'Total_floors_In_Building',
     'Road_Connectivity', 'Property_Age'
 ]
 
@@ -119,7 +119,6 @@ if loaded_rf_model and loaded_scaler and loaded_features:
                 'Bathrooms': bathrooms,
                 'Balcony': balcony,
                 'Number_Of_Amenities': num_amenities,
-                'Security_Deposite': security_deposite,
                 'Floor_No': floor_no,
                 'Total_floors_In_Building': total_floors,
                 'Road_Connectivity': road_connectivity,
