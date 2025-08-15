@@ -159,6 +159,7 @@ with col2:
 with col3:
     st.markdown("##### Amenities")
     # Using checkboxes for boolean features
+    # Checkbox state is a boolean (True/False)
     gym = st.checkbox("Gym")
     gated_community = st.checkbox("Gated Community")
     intercom = st.checkbox("Intercom")
@@ -202,6 +203,7 @@ if st.button("Predict Rent"):
             'Total_floors_In_Building': total_floors_building,
             'Road_Connectivity': road_connectivity,
             # Convert boolean checkboxes to integers (0 or 1)
+            # This is done by casting the boolean value to an integer
             'gym': int(gym),
             'gated_community': int(gated_community),
             'intercom': int(intercom),
